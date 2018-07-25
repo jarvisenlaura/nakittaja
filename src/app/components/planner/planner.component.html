@@ -1,3 +1,6 @@
-<p>
-  planner works!
-</p>
+<div *ngFor= "let day of days">
+  <div> {{day.name}}</div>
+<div *ngFor="let task of day.tasks">
+  <div> {{task.name}}</div>
+  <div> Status: {{task.done ? 'yes' : 'no' </div>
+</div>

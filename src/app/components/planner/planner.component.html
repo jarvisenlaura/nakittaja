@@ -1,6 +1,10 @@
-<div *ngFor= "let day of days">
-  <div> {{day.name}}</div>
-<div *ngFor="let task of day.tasks">
-  <div> {{task.name}}</div>
-  <div> Status: {{task.done ? 'yes' : 'no' </div>
+<div *ngFor="let day of days">
+  <div *ngIf="day.weekNumber == currentWeekNumber">
+    <div>{{day.name}}</div>
+
+    <div *ngFor="let task of day.tasks">
+      <div>Task: {{task.name}}</div>
+      <div>Status: {{task.done ? 'Done' : 'Not done'}}</div>
+    </div>
+  </div>
 </div>

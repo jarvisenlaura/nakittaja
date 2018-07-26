@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Day } from '../../models/day';
+import { Day } from '../../models/day';
 import { Task } from '../../models/task';
 
 @Component({
@@ -8,16 +8,17 @@ import { Task } from '../../models/task';
   styleUrls: ['./planner.component.scss']
 })
 export class PlannerComponent implements OnInit {
+
   days: Day[] = [];
-  currentWeek = 1;
+  currentWeekNumber = 1;
 
   constructor() { }
 
-  
   ngOnInit() {
-  this.days = this.getDaysData();
+    this.days = this.getDaysData();
   }
 
+  // TODO: load data from the server
   private getDaysData(): Day[] {
     const result = [];
 
@@ -53,4 +54,5 @@ export class PlannerComponent implements OnInit {
 
     return result;
   }
+
 }

@@ -1,10 +1,37 @@
-<div *ngFor="let day of days">
-  <div *ngIf="day.weekNumber == currentWeekNumber">
-    <div>{{day.name}}</div>
+<!-- main planner section -->
+<section class="section">
+  <!-- content container -->
+  <div class="container is-fluid">
+    <!-- column layout, you can add more bulma classes to control the responsive behavior -->
+    <div class="columns">
+      <!-- ng-container allows us to use ngFor, without actually rendering any extra html element, only the content inside it will show in html -->
+      <ng-container *ngFor="let day of days">
+        <!-- each day is a column -->
+        <div class="column" *ngIf="day.weekNumber == currentWeekNumber">
+          <!-- panel for the tasks in the column -->
+          <div class="panel">
+            <!-- panel title -->
+            <h2 class="panel-heading">{{day.name}}</h2>
 
-    <div *ngFor="let task of day.tasks">
-      <div>Task: {{task.name}}</div>
-      <div>Status: {{task.done ? 'Done' : 'Not done'}}</div>
+            <!-- panel content, the tasks for the day -->
+            <div class="panel-block" *ngFor="let task of day.tasks">
+
+              <!-- I quickly picked box to visually represent a task. It gets green bg class if task is done -->
+              <div class="box" [ngClass]="{'has-background-success': task.done}">
+                <!-- task name, with white text if done -->
+                <h5 class="title is-size-6" [ngClass]="{'has-text-white': task.done}">{{task.name}}</h5>
+                <div>
+                  <!-- checkbox with label, also needs white text if task is done -->
+                  <label class="checkbox" [ngClass]="{'has-text-white': task.done}">
+                    <!-- the magic happens here: we say the task.done represents the data model of checkbox state, Angular handles keeping them in sync -->
+                    <input type="checkbox" class="checkbox" [(ngModel)]="task.done"> {{task.done ? 'Tehty' : 'Tekemättä'}}
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
     </div>
   </div>
-</div>
+</section>

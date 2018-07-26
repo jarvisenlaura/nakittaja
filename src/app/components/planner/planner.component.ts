@@ -22,15 +22,15 @@ export class PlannerComponent implements OnInit {
   private getDaysData(): Day[] {
     const result = [];
 
-    const day1 = new Day(1, 'Monday', 0);
-    const day2 = new Day(1, 'Tuesday', 1);
-    const day3 = new Day(1, 'Wednesday', 2);
-    const day4 = new Day(1, 'Thursday', 3);
-    const day5 = new Day(1, 'Friday', 4);
-    const day6 = new Day(1, 'Saturday', 5);
-    const day7 = new Day(1, 'Sunday', 6);
+    const day1 = new Day(1, 'Maanantai', 0);
+    const day2 = new Day(1, 'Tiistai', 1);
+    const day3 = new Day(1, 'Keskiviikko', 2);
+    const day4 = new Day(1, 'Torstai', 3);
+    const day5 = new Day(1, 'Perjantai', 4);
+    const day6 = new Day(1, 'Lauantai', 5);
+    const day7 = new Day(1, 'Sunnuntai', 6);
 
-    day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false));
+    day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false), new Task("Kissan aamupala", false));
     result.push(day1);
 
     day2.tasks.push(new Task("Kissan aamupala", false));
@@ -46,7 +46,7 @@ export class PlannerComponent implements OnInit {
     day5.tasks.push(new Task("Koiran iltalenkki", false));
     result.push(day5);
 
-    day6.tasks.push(new Task("Pöytä tyhjäksi ja puhtaaksi", false));
+    day6.tasks.push(new Task("Pöytä puhtaaksi", false));
     result.push(day6);
 
     day7.tasks.push(new Task("Tilaa ruokaa viikoksi", false));

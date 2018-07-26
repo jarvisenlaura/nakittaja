@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { PlannerComponent } from './components/planner/planner.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    PlannerComponent
+    PlannerComponent,
   ],
   imports: [
     BrowserModule,

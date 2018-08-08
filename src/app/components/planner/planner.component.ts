@@ -18,6 +18,10 @@ export class PlannerComponent implements OnInit {
     this.days = this.getDaysData();
   }
 
+  sayHello(){
+    alert('hello')
+  }
+
   // TODO: load data from the server
   private getDaysData(): Day[] {
     const result = [];

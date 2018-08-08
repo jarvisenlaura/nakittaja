@@ -7,7 +7,7 @@ import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { PlannerComponent } from './components/planner/planner.component';
-import { WeekComponent } from './components/week/week.component';
+import { WeekComponent } from './week/week.component';
 
 
 @NgModule({

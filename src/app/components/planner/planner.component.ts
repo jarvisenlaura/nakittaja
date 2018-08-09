@@ -59,4 +59,13 @@ export class PlannerComponent implements OnInit {
     return result;
   }
 
+  quotes = [
+    'Töihin siitä -Nappaa se nakki!',
+    'Koti kiittää huoltajaansa!', ,
+    'Kohta on jo valmista!',
+    'Much nakki    Wow   Very clean'
+  ];
+
+  selectedQuote = this.quotes[Math.floor(Math.random() * this.quotes.length)];
+
 }

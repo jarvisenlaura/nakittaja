@@ -9,8 +9,7 @@ import { HomeComponent } from './components/home/home.component'
 export const router: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'planner', component: PlannerComponent },
-    { path: 'settings', component: SettingsComponent },
-    { path: 'home', component: HomeComponent }
+    { path: 'settings', component: SettingsComponent }
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router)

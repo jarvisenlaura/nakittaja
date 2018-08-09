@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Day } from '../../models/day';
 import { Task } from '../../models/task';
+import { tasksInDays } from '../../models/listOfTasks';
 
 @Component({
   selector: 'app-planner',
@@ -34,7 +35,12 @@ export class PlannerComponent implements OnInit {
     const day6 = new Day(1, 'Lauantai', 5);
     const day7 = new Day(1, 'Sunnuntai', 6);
 
-    day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false), new Task("Kissan aamupala", false));
+    //Replace with a for (taskEntry in tasksInDays[day_1]) {day1.tasks.push(new Task(taskEntry.name, taskEntry.done))}
+  //  day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false), new Task("Kissan aamupala", false));
+  //  day1.tasks=tasksInDays.day_1;
+  for (const task of tasksInDays.day_1) {
+    day1.tasks.push(task);
+  }
     result.push(day1);
 
     day2.tasks.push(new Task("Kissan aamupala", false));

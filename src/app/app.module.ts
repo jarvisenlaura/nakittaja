@@ -6,16 +6,16 @@ import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { PlannerComponent } from './components/planner/planner.component';
-import { WeekComponent } from './components/week/week.component';
-import { SettingsComponent } from './settings/settings.component';
+import { SettingsComponent } from './components/settings/settings.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PlannerComponent,
-    WeekComponent,
-    SettingsComponent
+    SettingsComponent,
+    HomeComponent
 
   ],
   imports: [

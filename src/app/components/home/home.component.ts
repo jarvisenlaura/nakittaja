@@ -23,10 +23,9 @@ export class HomeComponent implements OnInit {
     'Villakoirille kyytiä!',
     'Anna mä arvaan, veit juuri roskat?',
     'Anna kun arvaan, ruokit juuri eläimet?',
-    'Tiesitkö, että ihmiseltä irtoaa 100-200 hiusta päivässä?',
-    'Ei tämä munkaan suosikkihomma ole, mutta jonkun se on tehtävä.',
+    'Tiesitkö, että ihmiseltä irtoaa joka päivä noin 200 hiusta?',
     'Cleaning is coming... Brace yourselves.',
-    'I will look for you. I will find you. And I will make you clean your dishes!'
+    'I will look for you. I will find you. And I will make you clean your room!'
   ];
 
   selectedQuote = this.quotes[Math.floor(Math.random() * this.quotes.length)];

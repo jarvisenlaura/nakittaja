@@ -17,12 +17,28 @@
           <a id="yes" class="continue"> -jatka silti, koska uusi viikko alkaa!</a> 
     </div>
   </div>
+  <div class="container is-fluid">
+   <p id="explanations" >
+     Ensimmäinen viikko ilman lapsia <br>
+     Toinen viikko on lasten kanssa <br>
+     Kolmas viikko kahdestaan lattiat pesuun <br>
+     Neljäs viikko on lasten kanssa, lakanat vaihtoon
+   </p> 
+  </div>
+
 </body>
 
 <script>
   var button = document.getElementsById('week')[0];
 
- button.addEventListener('click', function(){
+  var x = document.getElementById('notify')
 
+ button.addEventListener('click', function(){
+  if 
+   (x.style.display === "none") {
+   x.style.display = "block"; 
+   } else {
+   x.style.display = "none"
+  } ;
  })
 </script>

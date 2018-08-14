@@ -36,9 +36,10 @@ export class PlannerComponent implements OnInit {
     const day7 = new Day(1, 'Sunnuntai', 6);
 
     //Replace with a for (taskEntry in tasksInDays[day_1]) {day1.tasks.push(new Task(taskEntry.name, taskEntry.done))}
-  //  day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false), new Task("Kissan aamupala", false));
+// day1.tasks.push(new Task("Koiran aamulenkki + ruoka", false), new Task("Kissan aamupala", false));
   //  day1.tasks=tasksInDays.day_1;
-  for (const task of tasksInDays.day_1) {
+
+    for (const task of tasksInDays.day_1) {
     day1.tasks.push(task);
   }
     result.push(day1);

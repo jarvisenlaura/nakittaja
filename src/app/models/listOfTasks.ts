@@ -4,7 +4,7 @@ import { Task } from './task';
 export const tasksInDays = {
 
  day_1: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -13,7 +13,7 @@ export const tasksInDays = {
     new Task("Pöytä puhtaaksi", false)
 ],
 day_2: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Kissanhiekka", false),
@@ -23,7 +23,7 @@ day_2: [
     new Task("Pöytä puhtaaksi", false)
 ],
 day_3: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
@@ -32,7 +32,7 @@ day_3: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_4: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Lattioiden siivous + imurointi", false),
@@ -45,7 +45,7 @@ day_4: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_5: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -54,7 +54,7 @@ day_5: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_6: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Kissanhiekka", false),
@@ -64,7 +64,7 @@ day_6: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_7: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -74,7 +74,7 @@ day_7: [
     new Task("Tila+ lemmikkien ruokaa viikoksi", false)
     ],
 day_8: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Ota ruuat vastaan", false),
     new Task("Kissan + koiran iltapala", false),
@@ -86,7 +86,7 @@ day_8: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_9: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -97,7 +97,7 @@ day_9: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_10: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -109,7 +109,7 @@ day_10: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_11: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -124,7 +124,7 @@ day_11: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_12: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -136,7 +136,7 @@ day_12: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_13: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -147,7 +147,7 @@ day_13: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_14: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -159,7 +159,7 @@ day_14: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_15: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -168,7 +168,7 @@ day_15: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_16: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Kissanhiekka", false),
@@ -178,7 +178,7 @@ day_16: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_17: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -187,7 +187,7 @@ day_17: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_18: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Lattioiden siivous + imurointi", false),
@@ -201,7 +201,7 @@ day_18: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_19: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -210,7 +210,7 @@ day_19: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_20: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Kissanhiekka", false),
@@ -220,7 +220,7 @@ day_20: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_21: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -230,7 +230,7 @@ day_21: [
     new Task("Tila+ lemmikkien ruokaa viikoksi", false)
     ],
 day_22: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Koiran päivälenkki", false),
     new Task("Ota ruuat vastaan", false),
     new Task("Kissan + koiran iltapala", false),
@@ -242,7 +242,7 @@ day_22: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_23: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -253,7 +253,7 @@ day_23: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_24: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -265,7 +265,7 @@ day_24: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_25: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -281,7 +281,7 @@ day_25: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_26: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -293,7 +293,7 @@ day_26: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_27: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),
@@ -304,7 +304,7 @@ day_27: [
     new Task("Pöytä puhtaaksi", false)
     ],
 day_28: [
-    new Task("Koiran aamulenkki + lemmikkien ruoka", false),
+    new Task("Aamulenkki + lemmikkien ruoka", false),
     new Task("Tiskikone tyhjäksi", false),
     new Task("Koiran päivälenkki", false),
     new Task("Kissan + koiran iltapala", false),

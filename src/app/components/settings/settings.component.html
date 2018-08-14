@@ -4,16 +4,25 @@
 </div>
   <div class="container is-fluid">
     <div class="buttons is-centered">
-      <span class="button is-large is-link">Viikko 1</span>
-      <span class="button is-large is-info">Viikko 2</span>
-      <span class="button is-large is-primary">Viikko 3</span>
-      <span class="button is-large is-success">Viikko 4</span>
+      <span id="week" class="button is-large is-link">Viikko 1</span>
+      <span id="week" class="button is-large is-info">Viikko 2</span>
+      <span id="week" class="button is-large is-primary">Viikko 3</span>
+      <span id="week" class="button is-large is-success">Viikko 4</span>
      </div>
   </div>
-<div class="notification is-warning">
-  <button class="delete"></button>
-  Olet vaihtamassa viikkoa, jolloin menetät aiemmin tallennetut merkinnät 
-  <a> -jatka silti!</a> 
-</div>
-
+  <div class="container is-fluid">
+    <div id="notify" class="notification is-warning">
+      <button class="delete"></button>
+        Olet vaihtamassa viikkoa, jolloin menetät aiemmin tallennetut merkinnät 
+          <a id="yes" class="continue"> -jatka silti, koska uusi viikko alkaa!</a> 
+    </div>
+  </div>
 </body>
+
+<script>
+  var button = document.getElementsById('week')[0];
+
+ button.addEventListener('click', function(){
+
+ })
+</script>

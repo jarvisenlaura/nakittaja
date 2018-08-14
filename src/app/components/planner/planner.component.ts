@@ -44,23 +44,35 @@ export class PlannerComponent implements OnInit {
   }
     result.push(day1);
 
-    day2.tasks.push(new Task("Kissan aamupala", false));
+    for (const task of tasksInDays.day_2) {
+      day2.tasks.push(task);
+    }
     result.push(day2);
 
 
-    day3.tasks.push(new Task("Tiskikone tyhjäksi", false));
+    for (const task of tasksInDays.day_3) {
+      day3.tasks.push(task);
+    }
     result.push(day3);
 
-    day4.tasks.push(new Task("Kissanhiekka", false));
+    for (const task of tasksInDays.day_4) {
+      day4.tasks.push(task);
+    }
     result.push(day4);
 
-    day5.tasks.push(new Task("Koiran iltalenkki", false));
+    for (const task of tasksInDays.day_5) {
+      day5.tasks.push(task);
+    }
     result.push(day5);
 
-    day6.tasks.push(new Task("Pöytä puhtaaksi", false));
+    for (const task of tasksInDays.day_6) {
+      day6.tasks.push(task);
+    }
     result.push(day6);
 
-    day7.tasks.push(new Task("Tilaa ruokaa viikoksi", false));
+    for (const task of tasksInDays.day_7) {
+      day7.tasks.push(task);
+    }
     result.push(day7);
 
     return result;

@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
   quotes = [
     'Töihin siitä -Nappaa se nakki!',
-    'Koti kiittää kauniisti.', ,
+    'Koti kiittää kauniisti.',
     'Kohta on jo valmista!',
     'Much nakki   !   Wow  !   Very clean',
     'Ei voi siivota jos ei ensin vähän sotketa.',
@@ -25,7 +25,8 @@ export class HomeComponent implements OnInit {
     'Anna kun arvaan, ruokit juuri eläimet?',
     'Tiesitkö, että ihmiseltä irtoaa joka päivä noin 200 hiusta?',
     'Cleaning is coming... Brace yourselves.',
-    'I will look for you. I will find you. And I will make you clean your room!'
+    'I will look for you. I will find you. And I will make you clean your room.',
+    "I got 99 problems but dust ain't one!"
   ];
 
   selectedQuote = this.quotes[Math.floor(Math.random() * this.quotes.length)];

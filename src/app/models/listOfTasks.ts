@@ -10,7 +10,8 @@ export const tasksInDays = {
     new Task("Kissan + koiran iltapala", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
 ],
 day_2: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -20,7 +21,8 @@ day_2: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
 ],
 day_3: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -29,7 +31,8 @@ day_3: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Kissan + koiran iltapala", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_4: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -42,7 +45,8 @@ day_4: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_5: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -51,7 +55,8 @@ day_5: [
     new Task("Kissan + koiran iltapala", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_6: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -61,7 +66,8 @@ day_6: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_7: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -71,7 +77,8 @@ day_7: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Pöytä puhtaaksi", false),
-    new Task("Tila+ lemmikkien ruokaa viikoksi", false)
+    new Task("Tila+ lemmikkien ruokaa viikoksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_8: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -83,7 +90,8 @@ day_8: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_9: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -94,7 +102,8 @@ day_9: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_10: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -106,7 +115,8 @@ day_10: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_11: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -117,7 +127,8 @@ day_11: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_12: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -133,7 +144,8 @@ day_12: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_13: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -144,7 +156,8 @@ day_13: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_14: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -156,7 +169,8 @@ day_14: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_15: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -165,7 +179,8 @@ day_15: [
     new Task("Kissan + koiran iltapala", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_16: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -175,7 +190,8 @@ day_16: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_17: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -184,7 +200,8 @@ day_17: [
     new Task("Kissan + koiran iltapala", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_18: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -198,7 +215,8 @@ day_18: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_19: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -207,7 +225,8 @@ day_19: [
     new Task("Kissan + koiran iltapala", false),
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_20: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -217,7 +236,8 @@ day_20: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_21: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -227,7 +247,8 @@ day_21: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Pöytä puhtaaksi", false),
-    new Task("Tila+ lemmikkien ruokaa viikoksi", false)
+    new Task("Tila+ lemmikkien ruokaa viikoksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_22: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -239,7 +260,8 @@ day_22: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_23: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -250,7 +272,8 @@ day_23: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_24: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -262,7 +285,8 @@ day_24: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_25: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -273,7 +297,8 @@ day_25: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_26: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -290,7 +315,8 @@ day_26: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_27: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -301,7 +327,8 @@ day_27: [
     new Task("Pyykkien viikkaus, pesu ja ripustus", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 day_28: [
     new Task("Aamulenkki + lemmikkien ruoka", false),
@@ -313,7 +340,8 @@ day_28: [
     new Task("Roskat ulos", false),
     new Task("Iltalenkki", false),
     new Task("Tiskikone päälle", false),
-    new Task("Pöytä puhtaaksi", false)
+    new Task("Pöytä puhtaaksi", false),
+    new Task("Iltacheckaus", false)
     ],
 }
 

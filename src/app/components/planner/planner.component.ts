@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Day } from '../../models/day';
 import { Task } from '../../models/task';
 import { tasksInDays } from '../../models/listOfTasks';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-planner',
   templateUrl: './planner.component.html',
-  styleUrls: ['./planner.component.scss']
+  styleUrls: ['./planner.component.scss'],
+
 })
 export class PlannerComponent implements OnInit {
 
@@ -78,4 +80,19 @@ export class PlannerComponent implements OnInit {
     return result;
   }
 
+
+}
+@Component({
+  selector: 'snack-bar-overview-example',
+  templateUrl: 'snack-bar-overview-example.html',
+  styleUrls: ['snack-bar-overview-example.css'],
+})
+export class SnackBarOverviewExample {
+  constructor(public snackBar: MatSnackBar) { }
+
+  openSnackBar(message: string, action: string) {
+    this.snackBar.open(message, action, {
+      duration: 2000,
+    });
+  }
 }
